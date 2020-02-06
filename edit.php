@@ -45,7 +45,7 @@
                 <div class="fields">
                     <div class="eight wide field">
                         <label>Firstname <span style="color: red;">*</span></label>
-                        <input type="text" name="firstname" placeholder="First Name" value="<?= $row['firstname']; ?>"> required>
+                        <input type="text" name="firstname" placeholder="First Name" value="<?= $row['firstname']; ?>" require>
                     </div>
                     <div class="eight wide field">
                         <label>Lastname <span style="color: red;">*</span></label>

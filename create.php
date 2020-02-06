@@ -59,7 +59,7 @@
                 </div>
                 <div class="inline field">
                     <label>Student ID <span style="color: red;">*</span></label>
-                    <input type="text" name="stdid" placeholder="5910XXXXXX">
+                    <input type="text" name="stdid" placeholder="5910XXXXXX" required>
                 </div>
                 <input type="submit" name="submit" class="ui submit button" value="submit" required>
             </div>
